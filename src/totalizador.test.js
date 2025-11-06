@@ -1,13 +1,7 @@
 import Items_Total from "./Totalizador.js";
 
-describe("Items_Total",() => {
-    /*it("Mostar Items",()=> {
-        expect(Items_Total(6)).toEqual(6);
-
-    });*/
-    it("Mostar Precio",()=> {
-        expect(Items_Total(6,5)).toEqual(30);
-
-    });
+describe("Items_Total", () => {
+  it("debería calcular el total para 6 items a precio 5", () => {
+    expect(Items_Total(6, 5)).toBe(30);
+  });
 });
-
