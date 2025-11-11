@@ -7,4 +7,4 @@ describe("Items_Total", () => {
   it("debería calcular el total para 3 items a precio 10", () => {
   expect(Items_Total(3, 10)).toBe(30);
 });
-});
+});//ssfsf
